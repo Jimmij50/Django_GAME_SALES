@@ -7,9 +7,9 @@ Python manage.py runserver:8000
 ## Deployment
 ### Platform:Azure
 ### Recommended IDE :VSCODE
-Using VSCODE AZURE Plugin to deploy
+Using vscode Azure Plugin to deploy
 ## Data 
-Data is in the data file.
+Data is in the data folder.
 ### Data Clean
 ```bash
 cd data
