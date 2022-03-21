@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <form action="/search_name/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Name">
+        <input type="submit" value="search Name">
+    </form>
+
+    <form action="/search_name/" method="post">
+        {% csrf_token %}
+        <input type="text" name="id">
+        <input type="submit" value="search id">
+    </form>
+
+    <p>"Name"</p>
+    <p>{{ Name}}</p>
+
+    <p>"Platform</p>
+    <p>{{ Platform}}</p>
+
+    <p>"Year"</p>
+    <p>{{ Year }}</p>
+
+    <p>"Genre"</p>
+    <p>{{ Genre}}</p>
+
+    <p>"Publisher"</p>
+    <p>{{ Publisher}}</p>
+
+    <p>"Developer"</p>
+    <p>{{ Developer}}</p>
+
+    <p>"Critic_Score"</p>
+    <p>{{ Critic_Score}}</p>
+
+    <p>"User_Score"</p>
+    <p>{{ User_Score}}</p>
+
+    <p> "NA_Sales"</p>
+    <p>{{ NA_Sales}}</p>
+
+    <p>"EU_Sales"</p>
+    <p>{{ EU_Sales }}</p>
+
+    <p>"JP_Sales"</p>
+    <p>{{ JP_Sales }}</p>
+
+    <p>"Other_Sales"</p>
+    <p>{{ Other_Sales }}</p>
+
+    <p>"Global_Sales"</p>
+    <p>{{ Global_Sales }}</p>
+    
+    <p>"Card_image"</p>
+    <p>{{Card_image }}</p>
+
+    <p>"Full_image"</p>
+    <p>{{ Full_image}}</p>
+
+</body>
+</html>

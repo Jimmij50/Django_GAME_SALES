@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <p>Name</p>
+        <input type="text" name="Name">
+        <p><br</p>
+
+        <p>Platform</p>
+        <input type="text" name="Platform">
+        <p><br</p>
+
+        <p>Year</p>
+        <input type="number" name="Year">
+        <p><br</p>
+
+        <p>Genre</p>
+        <input type="text" name="Genre">
+        <p><br</p>
+
+        <p>Publisher</p>
+        <input type="text" name="Publisher">
+        <p><br</p>
+
+        
+        <p>Developer</p>
+        <input type="text" name="Developer">
+        <p><br</p>
+
+        <p>Area</p>
+        <input type="text" name="Area">
+        <p><br</p>
+        
+        <input type="submit" value="search">
+        <p><br</p>
+    </form>
+
+
+
+
+    <!-- <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Name">
+        <input type="submit" value="search Name">
+    </form>
+
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Platform">
+        <input type="submit" value="search Platform">
+    </form>
+
+    
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Year">
+        <input type="submit" value="search Year">
+    </form>
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Genre">
+        <input type="submit" value="search Genre">
+    </form>
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Publisher">
+        <input type="submit" value="search Publisher">
+    </form> -->
+
+
+
+
+
+ 
+
+<p> {{list}}</p>
+
+</body>
+</html>

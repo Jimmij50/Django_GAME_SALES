@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <form action="/predict/" method="post">
+        {% csrf_token %}
+        <p>Name</p>
+        <input type="text" name="Name">
+        <p><br</p>
+
+        <p>Platform</p>
+        <input type="text" name="Platform">
+        <p><br</p>
+
+        <p>Year</p>
+        <input type="text" name="Year">
+        <p><br</p>
+
+        <p>Genre</p>
+        <input type="text" name="Genre">
+        <p><br</p>
+
+        <p>Publisher</p>
+        <input type="text" name="Publisher">
+        <p><br</p>
+
+        <p>Developer</p>
+        <input type="text" name="Developer">
+        <p><br</p>
+
+        <!-- <p>Area</p>
+        <input type="text" name="Area">
+        <p><br</p> -->
+        
+        <p>Degree</p>
+        <input type="number" name="Degree">
+        <p><br</p>
+
+        <input type="submit" value="search">
+        <p><br</p>
+    </form>
+
+
+
+
+<p> {{list}}</p>
+
+</body>
+</html>

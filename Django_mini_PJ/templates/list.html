@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Name">
+        <input type="submit" value="search Name">
+    </form>
+
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Platform">
+        <input type="submit" value="search Platform">
+    </form>
+
+    
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Year">
+        <input type="submit" value="search Year">
+    </form>
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Genre">
+        <input type="submit" value="search Genre">
+    </form>
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Publisher">
+        <input type="submit" value="search Publisher">
+    </form>
+
+
+
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="NA_Sales">
+        <input type="submit" value="search NA">
+    </form>
+
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="EU_Sales">
+        <input type="submit" value="search EU">
+    </form>
+
+    
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="JP_Sales">
+        <input type="submit" value="search JP">
+    </form>
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Other_Sales">
+        <input type="submit" value="search other">
+    </form>
+
+    <form action="/search_list/" method="post">
+        {% csrf_token %}
+        <input type="text" name="Global_Sales">
+        <input type="submit" value="search Global">
+    </form>
+ 
+    <p>"Name"</p>
+    <p>{{ Name}}</p>
+
+    <p>"Platform</p>
+    <p>{{ Platform}}</p>
+
+    <p>"Year"</p>
+    <p>{{ Year }}</p>
+
+    <p>"Genre"</p>
+    <p>{{ Genre}}</p>
+
+    <p>"Publisher"</p>
+    <p>{{ Publisher}}</p>
+
+    <p>"Developer"</p>
+    <p>{{ Developer}}</p>
+
+    <p>"Critic_Score"</p>
+    <p>{{ Critic_Score}}</p>
+
+    <p>"User_Score"</p>
+    <p>{{ User_Score}}</p>
+
+    <p> "NA_Sales"</p>
+    <p>{{ NA_Sales}}</p>
+
+    <p>"EU_Sales"</p>
+    <p>{{ EU_Sales }}</p>
+
+    <p>"JP_Sales"</p>
+    <p>{{ JP_Sales }}</p>
+
+    <p>"Other_Sales"</p>
+    <p>{{ Other_Sales }}</p>
+
+    <p>"Global_Sales"</p>
+    <p>{{ Global_Sales }}</p>
+    
+    <p>"Card_image"</p>
+    <p>{{Card_image }}</p>
+
+    <p>"Full_image"</p>
+    <p>{{ Full_image}}</p>
+
+
+</body>
+</html>

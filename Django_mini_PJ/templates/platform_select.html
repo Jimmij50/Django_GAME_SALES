@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <form action="/platform_select/" method="post">
+        {% csrf_token %}
+        <p>Game1</p>
+        <input type="text" name="Game1">
+        <p><br</p>
+
+        <p>Game2</p>
+        <input type="text" name="Game2">
+        <p><br</p>
+
+        <p>Game3</p>
+        <input type="text" name="Game3">
+        <p><br</p>
+
+        <p>Game4</p>
+        <input type="text" name="Game4">
+        <p><br</p>
+
+        <p>Game5</p>
+        <input type="text" name="Game5">
+        <p><br</p>
+
+        <p>Developer</p>
+        <input type="text" name="Developer">
+        <p><br</p>
+        
+        <input type="submit" value="search">
+        <p><br</p>
+    </form>
+
+
+<p> {{list}}</p>
+
+</body>
+</html>
