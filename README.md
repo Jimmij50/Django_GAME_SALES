@@ -9,7 +9,7 @@ python manage.py runserver:8000
 ### Recommended IDE :VSCODE
 Using vscode Azure Plugin to deploy
 
-[Azure Deployment Tutorial](https://docs.microsoft.com/en-us/azure/app-service/quickstart-pythCancel changeson?tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli)
+[Azure Deployment Tutorial](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-portal%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli)
 ## Data 
 Data is in the data folder.
 #### Data Clean
