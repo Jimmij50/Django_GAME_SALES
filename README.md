@@ -2,6 +2,7 @@
 
 ## Run Locally
 ```bash
+cd Django_mini_PJ
 python manage.py runserver:8000
 ```
 ## Deployment
